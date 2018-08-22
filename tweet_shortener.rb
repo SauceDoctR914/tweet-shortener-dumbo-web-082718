@@ -34,6 +34,6 @@ def bulk_tweet_shortener(array)
 def shortened_tweet_truncator(tweet)
    newTweet = selective_tweet_shortener(tweet)
    if newTweet.length > 140
-   newTweet[0,136] + "..."
+   newTweet[0,137] + "..."
  end
 end
