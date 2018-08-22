@@ -33,7 +33,7 @@ def bulk_tweet_shortener(array)
     
 def shortened_tweet_truncator(tweet)
   if selective_tweet_shortener(tweet).length > 140
-   newTweet = tweet.split(140)
+   newTweet = tweet
  end
    binding.pry
 end
